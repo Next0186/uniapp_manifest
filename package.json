@@ -4,12 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "ts-node test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/unzipper": "^0.10.3",
+    "aaptjs2": "^1.0.4",
     "jszip": "^3.4.0",
-    "utility": "^1.16.3"
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3",
+    "unzip": "^0.1.11",
+    "unzip-stream": "^0.3.0",
+    "unzipper": "^0.10.11",
+    "utility": "^1.16.3",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2"
   }
 }
