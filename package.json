@@ -12,7 +12,10 @@
   "dependencies": {
     "@types/unzipper": "^0.10.3",
     "aaptjs2": "^1.0.4",
+    "apktool": "^2.0.3",
+    "apktool-jar": "^2.4.1",
     "jszip": "^3.4.0",
+    "node_apktool": "^0.1.0",
     "ts-node": "^8.9.0",
     "typescript": "^3.8.3",
     "unzip": "^0.1.11",
